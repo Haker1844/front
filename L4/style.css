@@ -14,10 +14,23 @@
 .header{
 	height: 100px;
 	display: flex;
-	background: #4aba00;
-    justify-content: center;
+	background: #2f8f2f;
+background: linear-gradient(90deg,rgba(47, 143, 47, 1) 0%, rgba(15, 112, 15, 1) 35%, rgba(41, 64, 54, 1) 100%);
+    justify-content: space-around;
     gap: 25px;
     align-items: center;
+    border-radius: 15px;
+    border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+
+.logo, .actionBar, .nav, .logo a{
+	height: 	100%;
+   display: flex;
+   align-items: center;
+}
+.logo a img{
+	height: 80px;
 }
 
 .nav{
@@ -25,3 +38,70 @@
 	justify-content: space-around;
 	gap: 25px;
 }
+
+
+.header img{
+	height: 50px;
+}
+
+.container{
+	width: 95%;
+	margin: 20px auto;
+	border-radius: 15px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+
+.hero{
+	width: 100% ;
+	background-position: center;
+	background: url("img/images.jfif");
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-self: center;
+	align-items: center;
+	gap: 30px;
+	padding: 100px 0;
+	text-transform: capitalize;
+	color: white;
+}
+
+.heroButton{
+	color: white;
+	font-size: 30px;
+	font-weight: 900;
+	background-color: brown;
+	padding: 25px 100px;
+	border: 2px solid black;
+	border-radius: 15px;
+}
+
+
+
+.categories{
+	background: #2f8f2f;
+   background: linear-gradient(90deg,rgba(47, 143, 47, 1) 0%, rgba(15, 112, 15, 1) 35%, rgba(41, 64, 54, 1) 100%);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 25px;
+}
+
+.category{
+	background-position: center;
+	background: url("img/images.jfif");
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	align-items: baseline;
+	justify-content: center;
+	height: 250px;
+	width: 250px;
+	margin: 25px 0;
+   border: 2px solid white;
+   border-radius: 15px;
+    -webkit-box-shadow: 0px 37px 33px 25px rgba(169, 240, 255, 0.2);
+-moz-box-shadow: 0px 37px 33px 25px rgba(169, 240, 255, 0.2);
+box-shadow: 0px 37px 33px 25px rgba(169, 240, 255, 0.2);
