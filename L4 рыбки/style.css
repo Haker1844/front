@@ -1,0 +1,107 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+}
+*{
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+   text-decoration: none;
+}
+
+.header{
+	height: 100px;
+	display: flex;
+	background: #445085;
+background: linear-gradient(90deg,rgba(68, 80, 133, 1) 0%, rgba(0, 255, 255, 1) 50%, rgba(68, 80, 133, 1) 100%);
+    justify-content: space-around;
+    gap: 25px;
+    align-items: center;
+    border-radius: 15px;
+    border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+
+.logo, .actionBar, .nav, .logo a{
+	height: 	100%;
+   display: flex;
+   align-items: center;
+}
+.logo a img{
+	height: 80px;
+}
+
+.nav{
+	display: flex;
+	justify-content: space-around;
+	gap: 25px;
+}
+
+
+.header img{
+	height: 50px;
+}
+
+.container{
+	width: 95%;
+	margin: 20px auto;
+	border-radius: 15px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+
+.hero{
+	width: 100% ;
+	background-position: center;
+	background: url("img/ChatGPT Image 16_17_24");
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-self: center;
+	align-items: center;
+	gap: 30px;
+	padding: 100px 0;
+	text-transform: capitalize;
+	color: white;
+}
+
+.heroButton{
+	color: white;
+	font-size: 30px;
+	font-weight: 900;
+	background-color: blue;
+	padding: 25px 100px;
+	border: 2px solid black;
+	border-radius: 15px;
+}
+
+
+
+.categories{
+	background: #445085;
+background: linear-gradient(90deg,rgba(68, 80, 133, 1) 0%, rgba(0, 255, 255, 1) 50%, rgba(68, 80, 133, 1) 100%);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 25px;
+}
+
+.category{
+	background-position: center;
+	background: url("img/images.jfif");
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	align-items: baseline;
+	justify-content: center;
+	height: 250px;
+	width: 250px;
+	margin: 25px 0;
+   border: 2px solid white;
+   border-radius: 15px;
+    -webkit-box-shadow: 0px 37px 33px 25px rgba(169, 240, 255, 0.2);
+-moz-box-shadow: 0px 37px 33px 25px rgba(169, 240, 255, 0.2);
+box-shadow: 0px 37px 33px 25px rgba(169, 240, 255, 0.2);
