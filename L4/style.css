@@ -10,6 +10,9 @@
    margin: 0;
    text-decoration: none;
 }
+.h1{
+	text-align: 500px;
+}
 
 .header{
 	height: 100px;
@@ -105,3 +108,159 @@ background: linear-gradient(90deg,rgba(47, 143, 47, 1) 0%, rgba(15, 112, 15, 1) 
     -webkit-box-shadow: 0px 37px 33px 25px rgba(169, 240, 255, 0.2);
 -moz-box-shadow: 0px 37px 33px 25px rgba(169, 240, 255, 0.2);
 box-shadow: 0px 37px 33px 25px rgba(169, 240, 255, 0.2);
+}
+
+.grid{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+   grid-template-rows: repeat(3, 1fr);
+   grid-gap: 20px;
+}
+
+.product{
+   background: darkcyan;
+   grid-row: 1/4;
+   grid-column: 1/3;
+   display: flex;
+}
+
+.preview, .info{
+width: 50%;
+margin: 5px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+
+.preview{
+	background: red;
+
+}
+
+.preview img{
+	width: 100%;
+	transition: .4s;
+}
+
+.buttons{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.buttons{
+width: 25%;
+text-align: center;
+}
+
+.info{
+	background: green;
+}
+
+.ad{
+   background: gold;
+   grid-row: 1/3;
+   grid-column: 3/4;
+}
+
+.also{
+   background: green;
+   grid-row: 3/4;
+   grid-column: 3/4;
+}
+
+.smile{
+	position: absolute;
+}
+
+.shape{
+	width: 200px;
+	height: 200px;
+	position: relative;
+	background: yellow;
+	border-radius: 100%;
+	transition: 0.4s;
+}
+
+.eyes{
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 80%;
+	height: 30%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	z-index: 4;
+}
+
+.eye{
+	background: black;
+	height: 100%;
+	width: 25%;
+	border-radius: 50%;
+}
+
+.mouth{
+	position: absolute;
+	background: red;
+	bottom: 15%;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 50%;
+	height: 50%;
+	border-radius: 100%;
+}
+
+.hider{
+	height: 50%;
+	background: yellow;
+}
+
+.tooth{
+	position: absolute;
+	background: black;
+	height: 10%;
+	width: 100%;
+	top: 50%;
+	border-bottom-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+}
+/*hover active visited*/
+.shape:hover{
+	height: 500px;
+	width: 500px;
+}
+
+.shape:active{
+	background: blue;
+} 
+
+body{
+	height: 2000px;
+
+}
+
+.preview>img:hover{
+   filter: grayscale(0%);
+   filter: hue-rotate(90deg);
+}
+
+.nav a:hover{
+	transition: .4s;
+}
+
+.nav a:hover{
+	font-size: 2em;
+	transition: .4s;
+}
+
+.actionBar a img:hover{
+	transform: scale(1.3);
+}
+
+
+
