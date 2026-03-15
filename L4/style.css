@@ -57,8 +57,8 @@
 	text-transform: uppercase;
 	height: 100px;
 	display: flex;
-	background: #327396;
-	background: linear-gradient(0deg,rgba(50, 115, 150, 1) 0%, rgba(186, 217, 247, 1) 40%);
+	background: #12b000;
+background: linear-gradient(181deg,rgba(18, 176, 0, 1) 36%, rgba(216, 219, 0, 1) 98%, rgba(0, 85, 255, 1) 100%);
 	justify-content: space-around;
 	gap: 25px;
 	align-items: center;
@@ -111,8 +111,8 @@
 .heroButton{
 	font-size: 30px;
 	font-weight: 900;
-	background: #20538c;
-	background: linear-gradient(0deg,rgba(32, 83, 140, 1) 0%, rgba(106, 159, 235, 1) 60%);
+	background: #c1c400;
+background: linear-gradient(181deg,rgba(193, 196, 0, 1) 46%, rgba(28, 184, 0, 1) 100%);
 	padding: 25px 100px;
 	border: 2px solid black;
 	border-radius: 15px;
@@ -120,8 +120,8 @@
 }
 
 .categories{
-	background: #327396;
-	background: linear-gradient(0deg,rgba(50, 115, 150, 1) 0%, rgba(186, 217, 247, 1) 40%);
+	background: #c1c400;
+background: linear-gradient(181deg,rgba(193, 196, 0, 1) 46%, rgba(28, 184, 0, 1) 100%);
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -159,8 +159,8 @@
 }
 
 .product{
-	background: background: background: #327396;
-	background: linear-gradient(0deg,rgba(50, 115, 150, 1) 0%, rgba(186, 217, 247, 1) 40%);;
+	background: #c1c400;
+background: linear-gradient(181deg,rgba(193, 196, 0, 1) 46%, rgba(28, 184, 0, 1) 100%);
 	grid-row: 1/4;
 	grid-column: 1/3;
 	display: flex;
@@ -175,8 +175,8 @@
 }
 
 .preview{
-	background: background: #327396;
-	background: linear-gradient(0deg,rgba(50, 115, 150, 1) 0%, rgba(186, 217, 247, 1) 40%);;
+	background: #c1c400;
+background: linear-gradient(181deg,rgba(193, 196, 0, 1) 46%, rgba(28, 184, 0, 1) 100%);
 }
 
 .preview img{
@@ -202,8 +202,8 @@
 }
 
 .info{
-	background: background: #327396;
-	background: linear-gradient(0deg,rgba(50, 115, 150, 1) 0%, rgba(186, 217, 247, 1) 40%);;
+	background: #c1c400;
+background: linear-gradient(181deg,rgba(193, 196, 0, 1) 46%, rgba(28, 184, 0, 1) 100%);
 }
 
 .ad{
@@ -502,3 +502,15 @@ body{
 	width: 100%;
 	height: 70%;
 }
+
+.nav a::after{
+	content:"";
+	position: absolute;
+	bottom: -5px;
+	left: 0;
+	width: 0%;
+	height: 3px;
+	background: #2c79c2;
+	text-replace: .4s;
+}
+
